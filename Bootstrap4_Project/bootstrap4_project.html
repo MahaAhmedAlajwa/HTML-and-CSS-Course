@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maha Ahmed Alajwa's Movie Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Maha Ahmed Alajwa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#showtimes">Showtimes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#deals">Deals</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="p-5 mb-4 bg-light rounded-3 text-center">
+        <div class="container py-5">
+            <h1 class="display-4">Welcome to Maha's Movie Theater</h1>
+            <p class="lead">Enjoy the latest movies and best deals at your favorite cinema!</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2 class="mb-4">About</h2>
+        <p>Hello! I’m <strong>Maha Ahmed Alajwa</strong>, a passionate student. This is a simple, creative Bootstrap project built to showcase upcoming movies and theater deals using modern web technologies.</p>
+    </section>
+
+    <!-- Showtimes Section -->
+    <section id="showtimes" class="container my-5">
+        <h2 class="mb-4">Showtimes</h2>
+
+        <!-- Bootstrap Card Deck -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1: Kong Skull Island -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTcwMjcxYTQtYjJlOS00YTE1LWIyZGYtOGRlOTBlMWZmYTliXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Kong Skull Island">
+                    <div class="card-body">
+                        <h5 class="card-title">Kong: Skull Island</h5>
+                        <p class="card-text">A team of scientists and soldiers explore a mysterious island, only to encounter the mighty Kong and other terrifying creatures.</p>
+                        <span class="badge rounded-pill bg-info text-dark">12:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">1:30 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">3:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">5:30 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">7:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">9:30 p.m.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Ghost in the Shell -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzBkNjdjZTctNjdhOS00NmIyLTlkNjQtY2EwNGMwYmZjNTIxXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Ghost in the Shell">
+                    <div class="card-body">
+                        <h5 class="card-title">Ghost in the Shell</h5>
+                        <p class="card-text">In a future where humans are enhanced with technology, a cybernetic soldier fights to stop dangerous criminals and discover her past.</p>
+                        <span class="badge rounded-pill bg-info text-dark">12:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">1:30 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">3:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">5:30 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">7:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">9:30 p.m.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Beauty and the Beast -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_beautyandthebeast_19752_32e65c36.jpeg" class="card-img-top" alt="Beauty and the Beast">
+                    <div class="card-body">
+                        <h5 class="card-title">Beauty and the Beast</h5>
+                        <p class="card-text">A young woman discovers a magical world and learns to love a cursed prince trapped in the form of a beast.</p>
+                        <span class="badge rounded-pill bg-info text-dark">12:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">1:30 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">3:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">5:30 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">7:00 p.m.</span>
+                        <span class="badge rounded-pill bg-info text-dark">9:30 p.m.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section id="deals" class="container my-5">
+        <h2 class="mb-4">Deals</h2>
+        <p>Check out our amazing student discounts and family bundles!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Maha Ahmed Alajwa | Movie Theater Project</p>
+    </footer>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
